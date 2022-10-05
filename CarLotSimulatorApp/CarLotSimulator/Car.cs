@@ -12,10 +12,13 @@ namespace CarLotSimulator
         private string v4;
         private string v5;
         private bool v6;
+        private object CarLot;
 
         public Car()
         {
+            CarLot.numberOfCars++;
         }
+
 
         public Car(int v1, string v2, string v3, string v4, string v5, bool v6)
         {
